@@ -1,0 +1,14 @@
+Code ở trong máy  | Staging area | Local Repository | Remote Repository
+                    index.html
+                    note.txt
+
+
+Local Repository: Nơi chứa code và các thông tin về mã nguồn khi sử dụng GIT ở trong máy tính của bạn
+Remote Repository: Nơi chứa code và các thông tin về mã nguồn khi sử dụng GIT ở trên tài khoản github của bạn
+
+git init: tạo local repository
+git add <tên-file>: Đẩy các thay đổi của <tên-file> vào staging area
+git add . : đưa tất cả thay đổi của dự án vào staging area
+git commit: đưa các thay đổi từ staging area vào local repository, chụp lại 1 snapshot tại thời điểm đó.
+git remote: Kết nối local repository với remote repository
+git push: Đẩy các thay đổi từ local lên remote
